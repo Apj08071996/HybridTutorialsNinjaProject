@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 92.927 s <<< FAILURE! - in TestSuite
+verifyLoginWithValidEmailAndInvalidPassword(com.tutorialsninja.qa.tests.LoginTest)  Time elapsed: 1.533 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.tutorialsninja.qa.tests.LoginTest.verifyLoginWithValidEmailAndInvalidPassword(LoginTest.java:82)
+
